@@ -1,14 +1,19 @@
 {
-    "name": "react-env-tutorial",
+    "name": "react-boilerplate",
     "version": "1.0.0",
-    "description": "",
+    "description": "Lightweight React Boilerplate with Webpack/Babel Configurations.",
+    "keywords": ["react", "boilerplate", "webpack", "babel"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/juchanei/react-boilerplate"
+    },
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server",
         "build": "webpack-cli",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "LEE Juchan",
     "license": "ISC",
     "devDependencies": {
         "@babel/core": "^7.6.3",
