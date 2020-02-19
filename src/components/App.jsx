@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import logo from '../logo.svg'
 
 const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 `
 
 const Title = styled.h1`
@@ -29,7 +31,7 @@ const Logo = styled.img`
 const App = props => (
 	<Wrapper>
 		<Logo src={logo} alt='react logo' />
-		<Title {...props}>Hello React!</Title>
+		<Title {...props}>Hello React-boilerplate!</Title>
 	</Wrapper>
 )
 
