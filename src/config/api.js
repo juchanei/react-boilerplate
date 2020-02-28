@@ -1,0 +1,1 @@
+export const SOME_CONFIG = process.env.SOME_CONFIG

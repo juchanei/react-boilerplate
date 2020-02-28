@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Logo from './Logo'
 import Buttons from './Buttons'
+import { SOME_CONFIG } from '../config'
 
 const Wrapper = styled.div`
 	display: flex;
@@ -20,5 +21,6 @@ export default () => (
         <Logo />
         <Title>Hello React-boilerplate!</Title>
         <Buttons />
+        {SOME_CONFIG}
     </Wrapper>
 )
